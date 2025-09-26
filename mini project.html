@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Belajar</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Jika mau pakai ikon fontawesome -->
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- ======== NAVBAR ======== -->
+  <header>
+    <img src=https://www.nvidia.com/content/nvidiaGDC/eu/en_EU/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.100.1070.png/1703060325198/nvidia-logo-vert.png alt="Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Profile</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ======== CONTENT ======== -->
+  <div class="container">
+
+    <!-- FORM -->
+    <form>
+      <h2>Zamzam Academisia</h2>
+      <p>websitenya orang sukses ya disini
+
+      <div>
+        <label for="nama">Nama :</label>
+        <input type="text" id="nama" name="nama" placeholder="Nama">
+      </div>
+
+      <div>
+        <label for="tgl">Tanggal Lahir :</label>
+        <input type="date" id="tgl" name="tgl">
+      </div>
+
+      <div>
+        <label>Jenis Kelamin :</label>
+        <input type="radio" name="gender" value="Laki-Laki"> Laki-Laki
+        <input type="radio" name="gender" value="Perempuan"> Perempuan
+      </div>
+
+      <div>
+        <label for="pesan">Pesan :</label>
+        <textarea id="pesan" name="pesan" placeholder="Pesan"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- TABEL -->
+    <table>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Tanggal Lahir</th>
+          <th>Jenis Kelamin</th>
+          <th>Pesan</th>
+          <th>Profile</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ahmad Nur Zamzam</td>
+          <td>June 20, 2004</td>
+          <td>Laki-Laki</td>
+          <td>Semangat Belajar</td>
+          <td><a href="#">Klik Disini</a></td>
+          <td><span class="delete-btn">🗑</span></td>
+        </tr>
+        <tr>
+          <td>Adin Harahap</td>
+          <td>December 9, 1906</td>
+          <td>Perempuan</td>
+          <td>Jangan menyerah</td>
+          <td><a href="#">Klik Disini</a></td>
+          <td><span class="delete-btn">🗑</span></td>
+        </tr>
+        <tr>
+          <td>Adit sopo</td>
+          <td>August 17, 2025>
+          <td>laki laki
+          <td>Jangan Coba Coba</td>
+          <td><a href="#">Klik Disini</a></td>
+          <td><span class="delete-btn">🗑</span></td>
+        </tr>
+        <tr>
+          <td>Geraldi Muhammad</td>
+          <td>June 24, 200`
+          <td>Laki-Laki</td>
+          <td>Selalu Semangat</td>
+          <td><a href="#">Klik Disini</a></td>
+          <td><span class="delete-btn">🗑</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<footer class="footer">
+  created by zamzam
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
